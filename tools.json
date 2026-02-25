@@ -1,0 +1,322 @@
+[
+  {
+    "id": "fbpage01",
+    "name": "Facebook Page API",
+    "type": "tool",
+    "url": "https://developers.facebook.com/docs/graph-api/reference/page/feed",
+    "tags": [
+      "facebook",
+      "api",
+      "page"
+    ],
+    "notes": "Đăng bài lên Page qua Graph API. Quyền cần có: pages_manage_posts, pages_read_engagement. Lấy Page Access Token qua Graph API Explorer rồi dùng POST /{page-id}/feed."
+  },
+  {
+    "id": "ocrepo01",
+    "name": "OpenClaw (GitHub)",
+    "type": "repo",
+    "url": "https://github.com/openclaw/openclaw",
+    "tags": [
+      "github",
+      "repo",
+      "openclaw"
+    ],
+    "notes": "Repo chính của OpenClaw."
+  },
+  {
+    "id": "repo9rt01",
+    "name": "9router (GitHub)",
+    "type": "repo",
+    "url": "https://github.com/decolua/9router",
+    "tags": [
+      "github",
+      "repo",
+      "9router"
+    ],
+    "notes": "Repo 9router của decolua."
+  },
+  {
+    "id": "promptseo01",
+    "name": "Prompt viết bài chuẩn SEO",
+    "type": "prompt",
+    "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+    "tags": [
+      "seo",
+      "content",
+      "prompt"
+    ],
+    "notes": "Vai trò: Bạn là chuyên gia SEO + content strategist.\nNhiệm vụ: Viết bài chuẩn SEO bằng tiếng Việt theo từ khóa [KEYWORD_CHINH].\nYêu cầu đầu ra:\n1) Tiêu đề H1 hấp dẫn, chứa keyword chính gần đầu câu (<= 60 ký tự).\n2) Meta description 140-155 ký tự, có CTA.\n3) Mở bài 2-3 câu nêu pain point + lợi ích.\n4) Dàn ý H2/H3 logic theo search intent; mỗi mục có ví dụ thực tế.\n5) Mật độ keyword tự nhiên (~0.8-1.5%), thêm từ khóa phụ: [KEYWORD_PHU].\n6) Có bullet list, bảng so sánh (nếu phù hợp), FAQ 4-6 câu hỏi.\n7) Chèn đề xuất internal link [INTERNAL_LINKS] và external link uy tín [EXTERNAL_LINKS].\n8) Kết bài tóm tắt + CTA rõ ràng.\n9) Tối ưu đọc: câu ngắn, đoạn 2-4 dòng, giọng tự nhiên, không nhồi từ khóa.\n10) Xuất thêm: slug URL, 5 tiêu đề thay thế, 5 thẻ meta title khác nhau.\nRàng buộc: Nội dung unique, không bịa số liệu; nếu cần số liệu thì ghi nguồn đề xuất kiểm chứng."
+  },
+  {
+    "id": "sideapp01",
+    "name": "Side Screen (Second Display for Mac)",
+    "type": "tool",
+    "url": "https://www.sidescreen.dev/",
+    "tags": [
+      "macos",
+      "android",
+      "second-screen",
+      "usb-c",
+      "open-source"
+    ],
+    "notes": "Biến tablet Android thành màn hình phụ cho Mac qua USB-C. Điểm mạnh: độ trễ thấp (<30ms), hỗ trợ virtual display, tùy chỉnh resolution/FPS. Cần cài ADB trên Mac (brew install --cask android-platform-tools). Phù hợp mở rộng workspace nhanh, không cần màn hình rời."
+  },
+  {
+    "id": "ctx7_01",
+    "name": "Context7",
+    "type": "service",
+    "url": "https://context7.com",
+    "tags": [
+      "llm",
+      "docs",
+      "ai",
+      "developer-tools"
+    ],
+    "notes": "Nguồn tài liệu cập nhật cho LLM và AI code editors."
+  },
+  {
+    "id": "skillshub01",
+    "name": "Skill Links Hub (asiffer)",
+    "type": "doc",
+    "url": "https://asiffer.github.io/",
+    "tags": [
+      "skills",
+      "links",
+      "directory",
+      "resources"
+    ],
+    "notes": "Trang tổng hợp link/nguồn tham khảo về skills."
+  },
+  {
+    "id": "tinyvault01",
+    "name": "TinyVault Space",
+    "type": "service",
+    "url": "https://tinyvault.space",
+    "tags": [
+      "file-upload",
+      "share-link",
+      "hosting",
+      "utility"
+    ],
+    "notes": "Workflow với anh Vinh: khi anh gửi file, upload lên tinyvault.space và trả lại link tải/chia sẻ ngay. Checklist: (1) nhận file, (2) upload tinyvault.space, (3) verify link mở được, (4) gửi link + tên file + thời gian upload."
+  },
+  {
+    "id": "codewiki01",
+    "name": "Google CodeWiki",
+    "type": "doc",
+    "url": "https://codewiki.google/",
+    "tags": [
+      "code",
+      "troubleshooting",
+      "wiki",
+      "reference"
+    ],
+    "notes": "Rule với anh Vinh: khi code bị mắc/bug khó, ưu tiên tra trên CodeWiki trước để tìm hướng xử lý nhanh."
+  },
+  {
+    "id": "aoclawskills01",
+    "name": "Awesome OpenClaw Skills",
+    "type": "repo",
+    "url": "https://github.com/VoltAgent/awesome-openclaw-skills",
+    "tags": [
+      "openclaw",
+      "skills",
+      "repo",
+      "automation"
+    ],
+    "notes": "Kho skill cộng đồng cho OpenClaw để tham khảo và áp dụng workflow mới."
+  },
+  {
+    "id": "nextllms01",
+    "name": "Next.js LLM Docs Index",
+    "type": "doc",
+    "url": "https://nextjs.org/docs/llms.txt",
+    "tags": [
+      "nextjs",
+      "docs",
+      "llm",
+      "index"
+    ],
+    "notes": "Index tài liệu Next.js tối ưu cho AI/LLM, bám phiên bản docs mới."
+  },
+  {
+    "id": "nextllmsfull01",
+    "name": "Next.js LLM Docs Full",
+    "type": "doc",
+    "url": "https://nextjs.org/docs/llms-full.txt",
+    "tags": [
+      "nextjs",
+      "docs",
+      "llm",
+      "full-reference"
+    ],
+    "notes": "Bản đầy đủ tài liệu Next.js cho AI/LLM để tra cứu chuyên sâu khi code."
+  },
+  {
+    "id": "tickethubdocs01",
+    "name": "TicketHub Auto Docs Agent Workflow",
+    "type": "service",
+    "url": "https://github.com/mvng267/tickethub",
+    "tags": [
+      "tickethub",
+      "github-actions",
+      "documentation",
+      "automation",
+      "workflow"
+    ],
+    "notes": "Workflow docs cho TicketHub: push main -> GitHub Action (.github/workflows/docs-agent.yml) chạy script scripts/docs-agent-update.mjs để tự cập nhật PROJECT_SETUP.md (Change Log) và docs/AGENTS.md, rồi auto commit/push với [skip docs-agent] để tránh loop. Có hỗ trợ workflow_dispatch để chạy tay với before/after SHA. Phân vai chuẩn: Research (chọn hướng), Builder (code), Docs Agent (đồng bộ tài liệu theo code thực tế)."
+  },
+  {
+    "id": "44bbfea2",
+    "name": "Smoke Test",
+    "type": "tool",
+    "url": "https://example.com",
+    "tags": [
+      "smoke"
+    ],
+    "notes": "runtime check"
+  },
+  {
+    "id": "66ed01e4",
+    "name": "Smoke Test Updated",
+    "type": "tool",
+    "url": "https://example.com/u",
+    "tags": [
+      "smoke",
+      "update"
+    ],
+    "notes": "runtime check updated"
+  },
+  {
+    "id": "049699bd",
+    "name": "Smoke Runtime 1771773995",
+    "type": "tool",
+    "url": "https://example.com/1771773995",
+    "tags": [
+      "smoke"
+    ],
+    "notes": "runtime create"
+  },
+  {
+    "id": "be016b55",
+    "name": "Smoke Auto",
+    "type": "tool",
+    "url": "https://example.com",
+    "tags": [
+      "smoke"
+    ],
+    "notes": "auto"
+  },
+  {
+    "id": "videoinu01",
+    "name": "VideoInu Generator",
+    "type": "service",
+    "url": "https://videoinu.com/app/generator/video/66c72299a4c345c0a4b0fd2f5d678887",
+    "tags": [
+      "video",
+      "ai",
+      "generator",
+      "videoinu"
+    ],
+    "notes": "Link generator video anh Vinh gửi để dùng lại nhanh trong các vòng làm nội dung/demo."
+  },
+  {
+    "id": "hidemiumspec01",
+    "name": "Hidemium Full Auto OpenSpec + Python Runtime",
+    "type": "service",
+    "url": "file:///Users/mvng/Desktop/hidemium-fullauto",
+    "tags": [
+      "hidemium",
+      "openspec",
+      "python",
+      "automation",
+      "fastapi",
+      "scheduler"
+    ],
+    "notes": "Quy trình đã chốt: triển khai OpenSpec change `hidemium-full-auto-core`, scaffold MVP Python (FastAPI + APScheduler + YAML config + safety guard + run reporter JSON/MD). Lưu ý môi trường: dùng Python 3.11 venv để tránh lỗi pydantic-core trên Python 3.14. Lệnh nhanh: `python3.11 -m venv .venv && . .venv/bin/activate && pip install -r requirements.txt`; test: `PYTHONPATH=. python scripts/dry_run.py` và `PYTHONPATH=. python scripts/run_once.py fb_post_morning_01`; API: `PYTHONPATH=. uvicorn src.main:app --reload --port 8787`."
+  },
+  {
+    "id": "videoprompt01",
+    "name": "Prompt Pack: Video 60s Triệu View",
+    "type": "prompt",
+    "url": "local://toolhub/video-60s-prompt-pack",
+    "tags": [
+      "video",
+      "short-form",
+      "prompt",
+      "hook",
+      "cta",
+      "viral"
+    ],
+    "notes": "Template tổng để dựng video ngắn 60s: hook mạnh 3 giây đầu, tiêu đề rõ lợi ích, CTA kéo like/comment/share, format dọc 9:16, ưu tiên nhịp nhanh + cảnh có chuyển động."
+  },
+  {
+    "id": "videoprompt02",
+    "name": "Prompt: Concept video 60s (Hook + Title + CTA)",
+    "type": "prompt",
+    "url": "local://toolhub/video-concept-hook-title-cta",
+    "tags": [
+      "video",
+      "concept",
+      "hook",
+      "cta",
+      "audience"
+    ],
+    "notes": "Giúp tôi tạo concept video 60 giây cho chủ đề [chủ đề video]. Hãy tạo một kịch bản với hook hấp dẫn, tiêu đề ấn tượng và CTA mạnh mẽ. Phong cách video cần phải thu hút đối tượng [mô tả đối tượng], đồng thời khiến họ tương tác với video qua like, comment và share."
+  },
+  {
+    "id": "videoprompt03",
+    "name": "Prompt: Chọn nhạc nền theo cảm xúc",
+    "type": "prompt",
+    "url": "local://toolhub/video-bgm-emotion",
+    "tags": [
+      "video",
+      "music",
+      "emotion",
+      "engagement"
+    ],
+    "notes": "Chọn một bản nhạc nền sôi động, phù hợp với video 60 giây của tôi về [chủ đề video]. Âm nhạc cần phải tạo cảm giác [phấn khích, động lực, hài hước] và kích thích người xem hành động ngay lập tức."
+  },
+  {
+    "id": "videoprompt04",
+    "name": "Prompt: Cắt ghép video 9:16 chuyên nghiệp",
+    "type": "prompt",
+    "url": "local://toolhub/video-edit-9x16",
+    "tags": [
+      "video",
+      "editing",
+      "9:16",
+      "cuts",
+      "transition"
+    ],
+    "notes": "Chỉnh sửa video 60 giây với những đoạn clip từ YouTube hoặc nguồn tôi cung cấp. Cắt ghép video sao cho mượt mà, tỉ lệ vàng 9:16, ưu tiên những cảnh quay hấp dẫn và cắt bỏ các đoạn không cần thiết. Đảm bảo video có sự chuyển động mượt mà giữa các cảnh."
+  },
+  {
+    "id": "videoprompt05",
+    "name": "Prompt: Hiệu ứng động + hình ảnh",
+    "type": "prompt",
+    "url": "local://toolhub/video-motion-effects",
+    "tags": [
+      "video",
+      "motion",
+      "text-animation",
+      "sticker",
+      "transition"
+    ],
+    "notes": "Thêm các hiệu ứng động và hình ảnh vào video, bao gồm hiệu ứng chuyển cảnh mượt mà, text animation cho các điểm quan trọng và sticker gây sự chú ý. Đảm bảo các hiệu ứng không làm mất đi tính chuyên nghiệp của video và giúp người xem dễ dàng nắm bắt thông tin."
+  },
+  {
+    "id": "videoprompt06",
+    "name": "Prompt: Tiêu đề ngắn + subtitle full",
+    "type": "prompt",
+    "url": "local://toolhub/video-title-subtitle",
+    "tags": [
+      "video",
+      "title",
+      "subtitle",
+      "accessibility",
+      "retention"
+    ],
+    "notes": "Thêm tiêu đề rõ ràng, hấp dẫn vào video. Đảm bảo rằng các tiêu đề này không quá dài và dễ đọc, đồng thời thêm subtitle (phụ đề) cho tất cả các câu nói trong video để người xem dễ hiểu nội dung mà không cần âm thanh."
+  }
+]
