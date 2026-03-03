@@ -511,6 +511,10 @@ def save_data(data):
 
 
 class Handler(BaseHTTPRequestHandler):
+    def log_message(self, format, *args):
+        # Silence default access logs to keep stdout clean.
+        return
+
     def _send(self, code=200, ctype="text/html; charset=utf-8", body=""):
         self.send_response(code)
         self.send_header("Content-Type", ctype)
@@ -528,6 +532,13 @@ class Handler(BaseHTTPRequestHandler):
             return self._send(200, "application/json; charset=utf-8", json.dumps(load_data(), ensure_ascii=False))
         if p.path == "/api/types":
             return self._send(200, "application/json; charset=utf-8", json.dumps(load_types(), ensure_ascii=False))
+        if p.path in ("/health", "/api/health"):
+            payload = {
+                "ok": True,
+                "items": len(load_data()),
+                "types": len(load_types()),
+            }
+            return self._send(200, "application/json; charset=utf-8", json.dumps(payload, ensure_ascii=False))
         return self._send(404, body="Not found")
 
     def do_POST(self):
